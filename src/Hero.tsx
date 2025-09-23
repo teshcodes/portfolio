@@ -2,6 +2,9 @@ import HeroContent from "./HeroContent";
 import Projectsection from "./ProjectSection.tsx";
 import TimelineSection from "./TimelineSection.tsx";
 import BringToTheTable from "./BringToTheTable.tsx";
+import Testimonials from "./Testimonials.tsx";
+import ConnectTab from "./ConnectTab.tsx";
+import Footer from "./footer.tsx";
 
 
 export default function Hero() {
@@ -128,6 +131,9 @@ export default function Hero() {
 
             <TimelineSection />
             <BringToTheTable />
+            <Testimonials />
+            <ConnectTab />
+            <Footer />
         </section>
     );
 }
