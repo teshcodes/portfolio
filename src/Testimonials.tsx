@@ -39,9 +39,9 @@ export default function Testimonials() {
     ];
 
     return (
-        <section 
-        id="testimonials"
-        className="mt-16 md:mt-24 px-6 md:px-20">
+        <section
+            id="testimonials"
+            className="mt-16 md:mt-24 px-6 md:px-20">
             {/* Header */}
             <div className="flex justify-center">
                 <div className="flex items-center gap-2 px-4 py-1 rounded-full bg-[#282732] text-xs md:text-sm text-[#FFFFFF]">
@@ -61,14 +61,17 @@ export default function Testimonials() {
                         className="bg-[#1C1C21] p-6 rounded-lg flex flex-col justify-between"
                     >
                         {/* Stars */}
-                        <div className="flex mb-3">
+                        <div className="flex mb-3 gap-1">
                             {"★★★★★".split("").map((star, idx) => (
-                                <span key={idx} className="text-[#FFFFFF]">
+                                <span
+                                    key={idx}
+                                    className={`text-[#FFFFFF] animate-star-glow`}
+                                    style={{ animationDelay: `${idx * 0.2}s` }}
+                                >
                                     {star}
                                 </span>
                             ))}
                         </div>
-
 
                         {/* Feedback */}
                         <p className="text-[#CCCCCC] text-sm md:text-base mb-4 flex-1">
