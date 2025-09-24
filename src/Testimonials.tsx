@@ -39,7 +39,9 @@ export default function Testimonials() {
     ];
 
     return (
-        <section className="mt-16 md:mt-24 px-6 md:px-20">
+        <section 
+        id="testimonials"
+        className="mt-16 md:mt-24 px-6 md:px-20">
             {/* Header */}
             <div className="flex justify-center">
                 <div className="flex items-center gap-2 px-4 py-1 rounded-full bg-[#282732] text-xs md:text-sm text-[#FFFFFF]">

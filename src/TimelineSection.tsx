@@ -2,7 +2,9 @@ import { FaLaptopCode, FaCode, FaMobileAlt } from "react-icons/fa";
 
 export default function TimelineSection() {
     return (
-        <section className="relative max-w-6xl mx-auto mt-16 px-6">
+        <section 
+        id="experience"
+        className="relative max-w-6xl mx-auto mt-16 px-6">
             {/* Vertical timeline line */}
             <div
                 className="absolute left-1/2 top-0 hidden md:block w-[3px] h-full transform -translate-x-1/2"
@@ -50,7 +52,7 @@ export default function TimelineSection() {
                 <div className="flex flex-col gap-20 relative">
                     {/* Frontend Developer */}
                     <div className="relative">
-                        <div className="absolute -left-8 md:-left-14 top-1/2 transform -translate-y-1/2 hidden md:flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-r from-purple-500 to-indigo-500">
+                        <div className="absolute -left-8 md:-left-14 top-1/8 transform -translate-y-1/2 hidden md:flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-r from-purple-500 to-indigo-500">
                             <FaLaptopCode className="text-white" />
                         </div>
                         <h3 className="text-xl md:text-2xl font-bold">Frontend Developer</h3>
@@ -72,7 +74,7 @@ export default function TimelineSection() {
 
                     {/* Full Stack Developer */}
                     <div className="relative">
-                        <div className="absolute -left-8 md:-left-14 top-1/2 transform -translate-y-1/2 hidden md:flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-r from-pink-500 to-red-500">
+                        <div className="absolute -left-8 md:-left-14 top-1/8 transform -translate-y-1/2 hidden md:flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-r from-pink-500 to-red-500">
                             <FaCode className="text-white" />
                         </div>
                         <h3 className="text-xl md:text-2xl font-bold">Full Stack Developer</h3>
@@ -94,7 +96,7 @@ export default function TimelineSection() {
 
                     {/* React Native Developer */}
                     <div className="relative">
-                        <div className="absolute -left-8 md:-left-14 top-1/2 transform -translate-y-1/2 hidden md:flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-r from-blue-400 to-cyan-500">
+                        <div className="absolute -left-8 md:-left-14 top-1/8 transform -translate-y-1/2 hidden md:flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-r from-blue-400 to-cyan-500">
                             <FaMobileAlt className="text-white" />
                         </div>
                         <h3 className="text-xl md:text-2xl font-bold">React Native Developer</h3>

@@ -19,22 +19,21 @@ export default function HeroContent() {
                 <p className="mt-4 text-[#D9ECFF] text-sm md:text-base">
                     Hi, I'm TeshCodes, a developer based in côté d'Ivoire with a passion for code.
                 </p>
-                <button className="mt-6 text-[#000000] text-sm font-semibold px-4 py-3 bg-gradient-to-b from-[#EBF3FA] to-[#DFEDFA] rounded-lg shadow-lg cursor-pointer">
-                    See My Work ↓
-                </button>
+                <a href="#work-experience">
+                    <button className="mt-6 text-[#000000] text-sm font-semibold px-4 py-3 bg-gradient-to-b from-[#EBF3FA] to-[#DFEDFA] rounded-lg shadow-lg cursor-pointer">
+                        See My Work ↓
+                    </button>
+                </a>
             </div>
 
             {/* Right side */}
             <div className="flex justify-center">
                 <img
                     src="/office-illustration.png"
-                    className="rounded-2xl max-w-full h-auto"
                     alt="workspace"
+                    className="rounded-2xl max-w-full h-auto shadow-2xl animate-[float3D_3s_ease-in-out_infinite] [transform-style:preserve-3d]"
                 />
             </div>
         </section>
-
-
-
     );
 }
